@@ -1,13 +1,9 @@
-# shortener
+# Shortener Url - Automation Soon ⭐️
 
-### Based Cloudflare Workers.
+### Based On Cloudflare Workers HTTPS
 
-Basically, You Just deploy .js which is i not complete yet Create the Code 🗿.
-
-You Will Deploy The Shortener Code to your domain at Cloudflare.
-
-Ar that code you will take html and css from my API Server (Which is you can see at v1 folder)
-
-You Want To create your Own Theme and deploy to my API Server ? Fork It and i will deploy Every Friday)
-
-More Tutorial I will Create After I Done Create All Entire Project
+- [] Improve Default
+- [] Improve Javascript Code
+- [] Auto Deploy To Pelajar Social API Services
+- [] Automerge if someone want to create their own theme
+- [] Auto Fuse index.html with style.css
