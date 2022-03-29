@@ -1,0 +1,17 @@
+name : push
+
+on: [push, pull_request]
+
+jobs:
+  deploy:
+    name : deploy
+    runs-on : ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Upload To Cpanel
+      uses: sebastianpopp/ftp-action@releases/v2
+      with:
+        host: ${{ secrets.FTP_HOST }}
+        user: ${{ secrets.FTP_USER }}
+        password: ${{ secrets.FTP_PASS }}
+        localDir: "/home/${{ secrets.FTP_USER }}/public_html"
