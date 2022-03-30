@@ -14,4 +14,4 @@ jobs:
         host: ${{ secrets.FTP_HOST }}
         user: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASS }}
-        remoteDir: "../home/${{ secrets.FTP_USER }}/api/v1/theme"
+        remoteDir: "../home/vhcon/api/v1/theme"
